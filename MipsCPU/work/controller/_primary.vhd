@@ -1,0 +1,44 @@
+library verilog;
+use verilog.vl_types.all;
+entity controller is
+    port(
+        clk             : in     vl_logic;
+        reset           : in     vl_logic;
+        op              : in     vl_logic_vector(5 downto 0);
+        func            : in     vl_logic_vector(5 downto 0);
+        GPRWr           : out    vl_logic;
+        GPRSel          : out    vl_logic_vector(1 downto 0);
+        BSel            : out    vl_logic_vector(1 downto 0);
+        Branch          : out    vl_logic;
+        DMWr            : out    vl_logic;
+        WDSel           : out    vl_logic_vector(1 downto 0);
+        Jump            : out    vl_logic;
+        Jal             : out    vl_logic;
+        Jr              : out    vl_logic;
+        Aluctrl         : out    vl_logic_vector(2 downto 0);
+        PCWr            : out    vl_logic;
+        IRWr            : out    vl_logic;
+        sb              : out    vl_logic;
+        sh              : out    vl_logic;
+        sw              : out    vl_logic;
+        lb              : out    vl_logic;
+        lh              : out    vl_logic;
+        lbu             : out    vl_logic;
+        lhu             : out    vl_logic;
+        lw              : out    vl_logic;
+        bne             : out    vl_logic;
+        blez            : out    vl_logic;
+        bgtz            : out    vl_logic;
+        bltz            : out    vl_logic;
+        bgez            : out    vl_logic;
+        f               : in     vl_logic_vector(4 downto 0);
+        zero            : in     vl_logic;
+        rd              : in     vl_logic_vector(31 downto 0);
+        \sll\           : out    vl_logic;
+        \srl\           : out    vl_logic;
+        \sra\           : out    vl_logic;
+        sllv            : out    vl_logic;
+        srlv            : out    vl_logic;
+        srav            : out    vl_logic
+    );
+end controller;

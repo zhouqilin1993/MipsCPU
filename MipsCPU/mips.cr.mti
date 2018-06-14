@@ -1,0 +1,99 @@
+E:/Project6(finish)/testbench.v {1 {vlog -work work -vopt E:/Project6(finish)/testbench.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testbench_mips
+
+Top level modules:
+	testbench_mips
+
+} {} {}} E:/Project6(finish)/gpr.v {1 {vlog -work work -vopt E:/Project6(finish)/gpr.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} E:/Project6(finish)/head_mips.v {1 {vlog -work work -vopt E:/Project6(finish)/head_mips.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} E:/Project6(finish)/im.v {1 {vlog -work work -vopt E:/Project6(finish)/im.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} E:/Project6(finish)/dm.v {1 {vlog -work work -vopt E:/Project6(finish)/dm.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} E:/Project6(finish)/ext.v {1 {vlog -work work -vopt E:/Project6(finish)/ext.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module sign_ext
+-- Compiling module zero_ext
+
+Top level modules:
+	sign_ext
+	zero_ext
+
+} {} {}} E:/Project6(finish)/mips.v {1 {vlog -work work -vopt E:/Project6(finish)/mips.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} E:/Project6(finish)/npc.v {1 {vlog -work work -vopt E:/Project6(finish)/npc.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} E:/Project6(finish)/alu.v {1 {vlog -work work -vopt E:/Project6(finish)/alu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} E:/Project6(finish)/mux.v {1 {vlog -work work -vopt E:/Project6(finish)/mux.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux32
+-- Compiling module mux5
+
+Top level modules:
+	mux32
+	mux5
+
+} {} {}} E:/Project6(finish)/pc.v {1 {vlog -work work -vopt E:/Project6(finish)/pc.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} E:/Project6(finish)/controller.v {1 {vlog -work work -vopt E:/Project6(finish)/controller.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} E:/Project6(finish)/be_save.v {1 {vlog -work work -vopt E:/Project6(finish)/be_save.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module be_save
+
+Top level modules:
+	be_save
+
+} {} {}} E:/Project6(finish)/be_load.v {1 {vlog -work work -vopt E:/Project6(finish)/be_load.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module be_load
+
+Top level modules:
+	be_load
+
+} {} {}}
